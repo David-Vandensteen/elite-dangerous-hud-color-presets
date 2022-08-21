@@ -1,0 +1,18 @@
+@echo off
+
+set MATRIXRED_R=%1
+set MATRIXRED_G=%2
+set MATRIXRED_B=%3
+
+set MATRIXGREEN_R=%4
+set MATRIXGREEN_G=%5
+set MATRIXGREEN_B=%6
+
+set MATRIXBLUE_R=%7
+set MATRIXBLUE_G=%8
+set MATRIXBLUE_B=%9
+
+start http://arkku.com/elite/hud_editor/#theme_%MATRIXRED_R%_%MATRIXRED_G%_%MATRIXRED_B%_%MATRIXGREEN_R%_%MATRIXGREEN_G%_%MATRIXGREEN_B%_%MATRIXBLUE_R%_%MATRIXBLUE_G%_%MATRIXBLUE_B%
+goto :end
+
+:end
